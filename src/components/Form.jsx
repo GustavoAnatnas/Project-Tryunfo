@@ -21,11 +21,12 @@ class Form extends React.Component {
   //     };
   //   }
 
-  //   //   onInputChange(event) {
-  //   //     this.setState({
-  //   //       cardName: event.target.value,
-  //   //     });
-  //   //   }
+  //   onInputChange(event) {
+  //     this.setState({
+  //       cardName: event.target.value,
+  //     });
+  //   }
+
   //   onInputChange({ target }) {
   //     const { name } = target;
   //     const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -187,7 +188,7 @@ Form.propTypes = {
   cardImage: PropTypes.string.isRequired,
   cardRare: PropTypes.string.isRequired,
   cardTrunfo: PropTypes.bool.isRequired,
-//   hasTrunfo: PropTypes.bool.isRequired,
+  //   hasTrunfo: PropTypes.bool.isRequired,
   isSaveButtonDisabled: PropTypes.bool.isRequired,
   onInputChange: PropTypes.func.isRequired,
   onSaveButtonClick: PropTypes.func.isRequired,
