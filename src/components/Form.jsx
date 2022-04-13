@@ -119,6 +119,7 @@ class Form extends React.Component {
         <label htmlFor="Salvar">
           <input
             value="Salvar"
+            name="isSaveButtonDisabled"
             type="button"
             data-testid="save-button"
             disabled={ isSaveButtonDisabled }
