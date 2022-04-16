@@ -57,6 +57,12 @@ class App extends React.Component {
       trunfo,
     };
 
+    if (trunfo === true) {
+      this.setState(() => ({
+        hasTrunfo: true,
+      }));
+    }
+
     decks.push(card);
 
     this.setState({
